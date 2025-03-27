@@ -21,6 +21,9 @@ public class Main {
         listaFrutas.add("Banana");
         listaFrutas.add("Laranja");
 
+         // Removendo um elemento
+        listaFrutas.remove("Maçã");
+
         // Acessando um elemento
         println("Fruta na posição 1: " + listaFrutas.get(0)); // Saída: Maçã
         println("Lista Completa: " + listaFrutas);
@@ -43,8 +46,7 @@ public class Main {
             println("A fruta não está disponível.");
         }
 
-        // Removendo um elemento
-        listaFrutas.remove("Maçã");
+       
 
         // Iterando sobre o ArrayList
         println("Lista de frutas:");
